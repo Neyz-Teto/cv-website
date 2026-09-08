@@ -837,6 +837,9 @@ a {
     position: relative;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .skill-card:hover {
@@ -871,6 +874,7 @@ a {
     background: var(--color-border);
     overflow: hidden;
     position: relative;
+    margin-top: auto;
 }
 
 .skill-bar span {
